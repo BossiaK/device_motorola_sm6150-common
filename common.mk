@@ -253,7 +253,7 @@ PRODUCT_PACKAGES += \
     FM2 \
     libqcomfm_jni \
     init.qti.fm.sh \
-    qcom.fmradio  
+    qcom.fmradio
 
 # For config.fs
 PRODUCT_PACKAGES += \
