@@ -249,8 +249,11 @@ PRODUCT_PACKAGES += \
     com.motorola.hardware.biometric.fingerprint@1.0.vendor
 
 # FM
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.fm.use_audio_session=true 
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    init.qti.fm.sh \
+    qcom.fmradio  
 
 # For config.fs
 PRODUCT_PACKAGES += \
