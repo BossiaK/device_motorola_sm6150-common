@@ -174,6 +174,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# FM
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.fm.use_audio_session=true  
+
 # GPS
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.vendor.overlay.izat.optin=rro
